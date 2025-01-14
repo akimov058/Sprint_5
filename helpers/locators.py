@@ -13,3 +13,5 @@ class Locators:
     BUTTON_LOGIN = (By.XPATH,"//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa']") #Кнопка войти на странице входа
     BUTTON_PERSONAL_ACCOUNT = (By.XPATH,"(//p[@class='AppHeader_header__linkText__3q_va ml-2'])[3]") #Кнопка личный кабинет
     BUTTON_LOGIN_ON_PAGE_LOGIN = (By.XPATH,"(//a[@class='Auth_link__1fOlj'])") #Кнопка войти на странице регистрации
+    BUTTON_PROFILE = (By.XPATH,"(//a[@class='Account_link__2ETsJ text text_type_main-medium text_color_inactive Account_link_active__2opc9'])") #Кнопка Профиль на странице Личный кабинет
+    BUTTON_CONSTRUCTOR = (By.XPATH,"(//p[@class='AppHeader_header__linkText__3q_va ml-2'])[1]") # Кнопка конструктор
