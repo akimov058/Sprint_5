@@ -1,10 +1,7 @@
-import time
-
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from helpers.locators import Locators
 from helpers.urls import Urls
-from helpers.data import Data
 
 class TestAutorization:
     def test_login_button_log_in_to_accoount_on_page_main(self,driver):
