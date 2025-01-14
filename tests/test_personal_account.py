@@ -4,7 +4,7 @@ from helpers.locators import Locators
 from helpers.urls import Urls
 
 class TestPersonalAccount:
-    def test_go_click_on_personal_account(self,driver):
+    def test_go_click_to_personal_account(self,driver):
         driver.get(Urls.URL_LOGIN)
         WebDriverWait(driver, 5).until(
             expected_conditions.visibility_of_element_located((Locators.TITLE_FOR_PAGE_LOGIN)))
@@ -17,7 +17,7 @@ class TestPersonalAccount:
             expected_conditions.visibility_of_element_located((Locators.BUTTON_PROFILE)))
         assert driver.current_url == Urls.URL_PERSONAL_ACCOUNT
 
-    def test_go_click_on_constructor(self,driver):
+    def test_go_click_to_constructor(self,driver):
         driver.get(Urls.URL_LOGIN)
         WebDriverWait(driver, 5).until(
             expected_conditions.visibility_of_element_located((Locators.TITLE_FOR_PAGE_LOGIN)))
@@ -32,7 +32,7 @@ class TestPersonalAccount:
         WebDriverWait(driver, 5).until(expected_conditions.visibility_of_element_located((Locators.BUTTON_LOGIN_IN_ACCOUNT_MAIN_PAGE)))
         assert driver.current_url == Urls.BASE_URL
 
-    def test_go_click_on_logo(self,driver):
+    def test_go_click_to_logo(self,driver):
         driver.get(Urls.URL_LOGIN)
         WebDriverWait(driver, 5).until(
             expected_conditions.visibility_of_element_located((Locators.TITLE_FOR_PAGE_LOGIN)))

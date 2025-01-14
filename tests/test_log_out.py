@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions
 from helpers.locators import Locators
 from helpers.urls import Urls
 
-class TestPersonalAccount:
+class TestLogOut:
     def test_log_out(self,driver):
         driver.get(Urls.URL_LOGIN)
         WebDriverWait(driver, 5).until(
