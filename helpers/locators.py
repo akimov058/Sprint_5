@@ -17,3 +17,11 @@ class Locators:
     BUTTON_CONSTRUCTOR = (By.XPATH,"(//p[@class='AppHeader_header__linkText__3q_va ml-2'])[1]") # Кнопка конструктор
     BUTTON_LOGO = (By.XPATH,"//div[@class='AppHeader_header__logo__2D0X2']") #Логотип
     BUTTON_LOG_OUT = (By.XPATH,"//button[@class='Account_button__14Yp3 text text_type_main-medium text_color_inactive']") #Кнопка выход
+    SECTION_SAUCE = (By.XPATH, "//div[span[text()='Соусы']]") #Раздел булки
+    SECTION_BREAD = (By.XPATH, "//div[span[text()='Булки']]") #Раздел соусы
+    SECTION_FILLING = (By.XPATH, "//div[span[text()='Начинки']]") #Раздел соусы
+    UL_SECTION_DREAD = (By.XPATH,"(//ul[@class='BurgerIngredients_ingredients__list__2A-mT'])[1]")
+    UL_SECTION_SAUCE = (By.XPATH,"(//ul[@class='BurgerIngredients_ingredients__list__2A-mT'])[2]")
+    UL_SECTION_FILLING = (By.XPATH,"(//ul[@class='BurgerIngredients_ingredients__list__2A-mT'])[3]")
+
+
